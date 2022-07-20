@@ -1,0 +1,28 @@
+nav>ul{
+    display: flex;
+}
+nav li {
+    margin: 10px;
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    font-size:30px
+}
+ nav li:hover{
+    background-color: darkgray;
+ }
+ nav>ul>li:hover>ul{
+    display:block;
+ }
+ .dropdown{
+    display: none;
+    background-color: lightyellow;
+    padding: 0;
+    position: absolute;     
+    /*likha gula ase pase effect felbe na*/
+ }
+ .dropdown li{
+    margin: 0;
+    padding: 0 20px;
+ }
